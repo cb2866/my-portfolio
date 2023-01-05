@@ -20,19 +20,19 @@ function Navbar() {
                 Home
               </a>
               <a
-                href="/"
+                href="/projects"
                 class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300"
               >
                 Projects
               </a>
               <a
-                href="/"
+                href="/about"
                 class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300"
               >
                 About Me
               </a>
               <a
-                href="/"
+                href="/contact"
                 class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300"
               >
                 Let's Connect
