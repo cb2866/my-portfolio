@@ -1,13 +1,11 @@
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
+import AppRoutes from "./AppRoutes";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Navbar />
-        <Home />
-      </header>
+      <Navbar />
+      <AppRoutes />
     </div>
   );
 }
