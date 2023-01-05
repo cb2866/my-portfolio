@@ -1,8 +1,12 @@
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p className="text-3xl font-bold underline">Hello Portfolio!</p>
+        <Navbar />
+        <Home />
       </header>
     </div>
   );
