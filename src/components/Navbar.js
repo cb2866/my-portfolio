@@ -18,10 +18,10 @@ function Navbar() {
                 Projects
               </a>
               <a
-                href="/about"
+                href="/resume"
                 class="py-4 px-2 text-navbarText font-semibold transition ease-in-out delay-120 hover:-translate-y-1 hover:scale-110 duration-300"
               >
-                About Me
+                Resume
               </a>
               <a
                 href="/contact"
