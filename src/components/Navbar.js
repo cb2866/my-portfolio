@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <nav class="bg-navbar shadow-lg">
+    <nav class="bg-navbar shadow-lg font-signika">
       <div class="flex justify-end max-w-7xl ">
         <div class="flex justify-between">
           <div class="flex space-x-7">
