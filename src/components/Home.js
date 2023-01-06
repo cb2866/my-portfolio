@@ -1,11 +1,11 @@
 function Home() {
   return (
-    <>
+    <div class="grid grid-flow-col auto-cols">
       <div
         className="container mx-auto px-2 py-2 mt-6"
         style={{ backgroundColor: "white" }}
       >
-        <img alt="Cynthia"></img>
+        <img alt="Cynthia" src="grumpyCat.jpg" width="250" height="350" />
       </div>
       <div
         className="container mx-auto px-2 py-2 mt-6"
@@ -35,7 +35,7 @@ function Home() {
           organization.
         </p>
       </div>
-    </>
+    </div>
   );
 }
 
