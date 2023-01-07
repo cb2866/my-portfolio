@@ -5,8 +5,8 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     colors: {
-      navbar: "#fab7c4",
-      navbarText: "#26275d",
+      navbar: "#26275d",
+      navbarText: "white",
     },
     extend: {
       fontFamily: {

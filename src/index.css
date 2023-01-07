@@ -1,12 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Signika");
+@import url("https://fonts.googleapis.com/css2?family=Signi");
 
 
 body {
   margin: 0;
-  background-image: url("/public/background.png");
+  background-image: url("/public/3.png");
+  background-size: cover;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
