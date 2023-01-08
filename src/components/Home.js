@@ -1,12 +1,16 @@
 function Home() {
   return (
-    <div class="grid grid-flow-col auto-cols">
-      <div
+    <div className="grid grid-cols-2">
+      {/* <div
         className="container mx-auto px-2 py-2 mt-6"
         style={{ backgroundColor: "white" }}
-      >
-        <img alt="Cynthia" src="grumpyCat.jpg" width="250" height="350" />
-      </div>
+      > */}
+      <img
+        alt="Cynthia"
+        src="cat2.jpg"
+        className="rounded-full w-96 h-96 px-2 py-2 mt-6"
+      />
+      {/* </div> */}
       <div
         className="container mx-auto px-2 py-2 mt-6"
         style={{ backgroundColor: "white" }}
