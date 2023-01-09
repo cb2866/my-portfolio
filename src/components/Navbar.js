@@ -1,31 +1,31 @@
 function Navbar() {
   return (
-    <nav class="bg-navbar shadow-lg font-signika">
-      <div class="flex justify-end max-w-7xl ">
-        <div class="flex justify-between">
-          <div class="flex space-x-7">
-            <div class="hidden md:flex items-center space-x-1">
+    <nav className="bg-navbar shadow-lg font-signika">
+      <div className="flex justify-end max-w-7xl ">
+        <div className="flex justify-between">
+          <div className="flex space-x-7">
+            <div className="hidden md:flex items-center space-x-1">
               <a
                 href="/"
-                class="py-4 px-2 text-navbarText font-semibold transition ease-in-out delay-120 hover:-translate-y-1 hover:scale-110 duration-300"
+                className="py-4 px-2 text-navbarText font-semibold transition ease-in-out delay-120 hover:-translate-y-1 hover:scale-110 duration-300"
               >
                 Home
               </a>
               <a
                 href="/projects"
-                class="py-4 px-2 text-navbarText font-semibold transition ease-in-out delay-120 bg-blue-500 hover:-translate-y-1 hover:scale-110 duration-300"
+                className="py-4 px-2 text-navbarText font-semibold transition ease-in-out delay-120 bg-blue-500 hover:-translate-y-1 hover:scale-110 duration-300"
               >
                 Projects
               </a>
               <a
                 href="/resume"
-                class="py-4 px-2 text-navbarText font-semibold transition ease-in-out delay-120 hover:-translate-y-1 hover:scale-110 duration-300"
+                className="py-4 px-2 text-navbarText font-semibold transition ease-in-out delay-120 hover:-translate-y-1 hover:scale-110 duration-300"
               >
                 Resume
               </a>
               <a
                 href="/contact"
-                class="py-4 px-2 text-navbarText font-semibold transition ease-in-out delay-120 hover:-translate-y-1 hover:scale-110 duration-300"
+                className="py-4 px-2 text-navbarText font-semibold transition ease-in-out delay-120 hover:-translate-y-1 hover:scale-110 duration-300"
               >
                 Let's Connect
               </a>
