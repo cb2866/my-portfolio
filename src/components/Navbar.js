@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <nav className="bg-navbar shadow-lg font-signika">
+    <nav className="bg-navbar shadow-lg font-shine">
       <div className="flex justify-end max-w-7xl ">
         <div className="flex justify-between">
           <div className="flex space-x-7">

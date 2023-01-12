@@ -10,10 +10,10 @@ function Home() {
         className="container px-2 py-2 mt-6"
         style={{ backgroundColor: "white" }}
       >
-        <h1 className="text-white text-center underline font-bold font-signika text-3xl pb-2">
+        <h1 className="text-white text-center underline font-bold font-shine text-3xl pb-2">
           ABOUT ME
         </h1>
-        <p className="indent-8 font-signika">
+        <p className="indent-8 font-shine">
           Hi, I'm Cynthia, a Full-Stack Software Engineer and recent graduate of
           Fullstack Academy's Future Code Fellowship program. Before pivoting to
           tech, I worked in the non-profit space for over six years. Over that
@@ -25,7 +25,7 @@ function Home() {
           experiencing homelessness.
         </p>
         <br />
-        <p className="indent-8 font-signika">
+        <p className="indent-8 font-shine">
           As a native New Yorker and recent graduate, I am excited to explore
           opportunities that allow me to create and support web applications
           that empower youth and directly impact the lives of NYC residents. I

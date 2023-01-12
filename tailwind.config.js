@@ -10,7 +10,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        signika: ["Signika"],
+        shine: ["Shine Typewriter"],
       },
     },
   },
