@@ -1,16 +1,11 @@
 function Home() {
   return (
-    <div className="grid grid-cols-2 ">
-      <img
-        alt="Cynthia"
-        src="cat2.jpg"
-        className="rounded-full w-96 h-96 px-2 py-2 mt-6"
-      />
-      <div
-        className="container px-2 py-2 mt-6"
-        style={{ backgroundColor: "white" }}
-      >
-        <h1 className="text-white text-center underline font-bold font-shine text-3xl pb-2">
+    <div className="grid grid-rows-1 grid-cols-2 justify-items-center flex items-center">
+      <div className="px-2 py-2 mt-6">
+        <img alt="Cynthia" src="cat2.jpg" className="w-150 h-96" />
+      </div>
+      <div className="container py-2 px-2 mt-6">
+        <h1 className="text-center underline font-bold font-shine text-3xl pb-2">
           ABOUT ME
         </h1>
         <p className="indent-8 font-shine">
@@ -28,10 +23,7 @@ function Home() {
         <p className="indent-8 font-shine">
           As a native New Yorker and recent graduate, I am excited to explore
           opportunities that allow me to create and support web applications
-          that empower youth and directly impact the lives of NYC residents. I
-          am currently looking for my first role as a Software Engineer and
-          would like to apply my skills in support of a mission-driven
-          organization.
+          that empower youth and directly impact the lives of NYC residents.
         </p>
       </div>
     </div>
