@@ -2,7 +2,7 @@ function Home() {
   return (
     <div className="grid grid-rows-1 grid-cols-2 justify-items-center flex items-center">
       <div className="px-2 py-2 mt-6">
-        <img alt="Cynthia" src="cat2.jpg" className="w-150 h-96" />
+        <img alt="Cynthia" src="cynthia.png" className="w-150 h-96" />
       </div>
       <div className="container py-2 px-2 mt-6">
         <h1 className="underline font-semi-bold  text-3xl pb-2">ABOUT ME</h1>
