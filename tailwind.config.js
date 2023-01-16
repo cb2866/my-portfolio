@@ -7,6 +7,7 @@ module.exports = {
     colors: {
       navbar: "#4A1942",
       navbarText: "white",
+      header: "#4A1942",
       grid: "white",
       contact: "white",
       form: "#EAEAEA",
