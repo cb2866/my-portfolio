@@ -6,11 +6,10 @@ function Projects() {
           Projects
         </h1>
       </div>
-      {/* Grid starts here */}
-      <div className="bg-[#893168] dark:bg-gray-900">
+      <div className="rounded-md shadow-md bg-[#893168] mx-auto mb-20 dark:bg-gray-900">
         <div className="max-w-6xl mx-auto -mt-4 grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
           <a
-            href="https://tailwindmasterkit.com"
+            href="https://pocketnyc.onrender.com/"
             className="w-full block shadow-2xl"
           >
             <div className="relative overflow-hidden">
@@ -22,7 +21,7 @@ function Projects() {
             </div>
           </a>
           <a
-            href="https://tailwindmasterkit.com"
+            href="https://team3.onrender.com/home"
             className="w-full block shadow-2xl"
           >
             <div className="relative overflow-hidden">
