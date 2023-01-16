@@ -5,10 +5,8 @@ function Home() {
         <img alt="Cynthia" src="cat2.jpg" className="w-150 h-96" />
       </div>
       <div className="container py-2 px-2 mt-6">
-        <h1 className="underline font-bold font-shine text-3xl pb-2">
-          ABOUT ME
-        </h1>
-        <p className="font-shine">
+        <h1 className="underline font-semi-bold  text-3xl pb-2">ABOUT ME</h1>
+        <p className="font-light">
           Hi, I'm Cynthia, a Full-Stack Software Engineer and recent graduate of
           Fullstack Academy's Future Code Fellowship program. Before pivoting to
           tech, I worked in the non-profit space for over six years. Over that
@@ -20,14 +18,14 @@ function Home() {
           homelessness.
         </p>
         <br />
-        <p className="font-shine">
+        <p className="font-light">
           As a native New Yorker and recent graduate, I am excited to explore
           opportunities that empower youth and directly impact the lives of NYC
           residents.
         </p>
         <br />
 
-        <h1 className="underline font-bold font-shine text-3xl pb-2">SKILLS</h1>
+        <h1 className="underline font-semi-bold text-3xl pb-2">SKILLS</h1>
         <div className="grid grid-flow-col auto-cols-max gap-2">
           <img
             alt="Javascript"

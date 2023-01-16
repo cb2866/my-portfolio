@@ -5,15 +5,14 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     colors: {
-      navbar: "#5A5042",
+      navbar: "#4A1942",
       navbarText: "white",
       grid: "white",
+      contact: "white",
+      form: "#EAEAEA",
+      button: "#4A1942",
     },
-    extend: {
-      fontFamily: {
-        shine: ["Shine Typewriter"],
-      },
-    },
+    extend: {},
   },
   plugins: [],
 };

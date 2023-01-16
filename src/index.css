@@ -7,16 +7,7 @@ body {
   margin: 0;
   /* background-image: url("/public/library.jpg");
   background-size:initial; */
-  background-color: #E0C9A6;
+  background-color: #EAEAEA;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-@font-face {
-  font-family: 'Shine Typewriter';
-  src: url('/public/ShineTypewriterRegular.woff2') format('woff2'),
-      url('/public/ShineTypewriterRegular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
 }
