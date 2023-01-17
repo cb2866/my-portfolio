@@ -5,27 +5,24 @@ function Navbar() {
         <div className="flex justify-between">
           <div className="flex space-x-7">
             <div className="hidden md:flex items-center space-x-1">
-              <a
-                href="/"
-                className="py-4 px-2 text-navbarText font-light transition ease-in-out delay-120 hover:-translate-y-1 hover:scale-110 duration-300"
-              >
+              <a href="/" className="py-4 px-2 text-navbarText font-light">
                 Home
               </a>
               <a
                 href="/projects"
-                className="py-4 px-2 text-navbarText font-light transition ease-in-out delay-120 bg-blue-500 hover:-translate-y-1 hover:scale-110 duration-300"
+                className="py-4 px-2 text-navbarText font-light"
               >
                 Projects
               </a>
               <a
                 href="/resume"
-                className="py-4 px-2 text-navbarText font-light transition ease-in-out delay-120 hover:-translate-y-1 hover:scale-110 duration-300"
+                className="py-4 px-2 text-navbarText font-light"
               >
                 Resume
               </a>
               <a
                 href="/contact"
-                className="py-4 px-2 text-navbarText font-light transition ease-in-out delay-120 hover:-translate-y-1 hover:scale-110 duration-300"
+                className="py-4 px-2 text-navbarText font-light"
               >
                 Let's Connect
               </a>

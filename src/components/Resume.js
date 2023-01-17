@@ -1,5 +1,15 @@
 function Resume() {
-  return <h1>Hold for About Me Page!</h1>;
+  return (
+    <div>
+      <h1>Hold for Resume</h1>
+      <embed
+        src="CBMResume.pdf"
+        type="application/pdf"
+        width="100%"
+        height="600px"
+      />
+    </div>
+  );
 }
 
 export default Resume;
