@@ -15,7 +15,7 @@ function ContactPage() {
       <div className="rounded-md shadow-md bg-[#893168] p-4 md:p-10 lg:p-20 max-w-7xl mx-auto mb-20 -mt-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="md:ml-4">
-            <header className="">
+            <header>
               <h1 className="text-contact font-semibold text-2xl">
                 Get in touch, let's talk.
               </h1>

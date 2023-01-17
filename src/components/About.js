@@ -2,67 +2,46 @@ import React from "react";
 
 function About() {
   return (
-    <div className="grid grid-rows-1 grid-cols-2 justify-items-center flex items-center">
-      <div className="px-2 py-2 mt-6">
-        <img alt="Cynthia" src="cynthia.png" className="w-150 h-96" />
+    <section>
+      <div className="max-w-6xl mx-auto h-40 dark:bg-gray-800 antialiased">
+        <h1 className="text-5xl md:text-9xl font-bold py-10 text-center text-header md:text-left">
+          About Me
+        </h1>
       </div>
-      <div className="container py-2 px-2 mt-6">
-        <h1 className="underline font-semi-bold  text-3xl pb-2">ABOUT ME</h1>
-        <p className="font-light">
-          Hi, I'm Cynthia, a Full-Stack Software Engineer and recent graduate of
-          Fullstack Academy's Future Code Fellowship program. Before pivoting to
-          tech, I worked in the non-profit space for over six years. Over that
-          period, I worked in volunteer management developing and implementing
-          volunteer programs serving youth across the country, as well as
-          recruiting and training volunteers to lead those programs. Most
-          recently, I worked in the social services space as site supervisor for
-          an after-school and day camp program working with youth experiencing
-          homelessness.
-        </p>
-        <br />
-        <p className="font-light">
-          As a native New Yorker and recent graduate, I am excited to explore
-          opportunities that empower youth and directly impact the lives of NYC
-          residents.
-        </p>
-        <br />
-
-        <h1 className="underline font-semi-bold text-3xl pb-2">SKILLS</h1>
-        <div className="grid grid-flow-col auto-cols-max gap-2">
-          <img
-            alt="Javascript"
-            style={{ width: "35px", height: "35px", backgroundColor: "white" }}
-            src={"https://cdn.worldvectorlogo.com/logos/javascript-1.svg"}
-          />
-          <img
-            alt="HTML"
-            style={{ width: "35px", height: "35px", backgroundColor: "white" }}
-            src={"https://cdn-icons-png.flaticon.com/512/732/732212.png"}
-          />
-          <img
-            alt="CSS"
-            style={{ width: "35px", height: "35px", backgroundColor: "white" }}
-            src={
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
-            }
-          />
-          <img
-            alt="React"
-            style={{ width: "35px", height: "35px", backgroundColor: "white" }}
-            src={
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
-            }
-          />
-          <img
-            alt="React"
-            style={{ width: "35px", height: "35px", backgroundColor: "white" }}
-            src={
-              "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png"
-            }
-          />
+      <div className="rounded-md shadow-md bg-[#893168] p-4 md:p-10 lg:p-20 max-w-7xl mx-auto mb-20 -mt-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+          <div className="md:ml-4">
+            <p className="text-grid text-l">
+              Hi, I'm Cynthia, a Full-Stack Software Engineer and recent
+              graduate of Fullstack Academy's{" "}
+              <a
+                className="underline"
+                href="https://www.fullstackacademy.com/programs/future-code"
+              >
+                Future Code Fellowship.
+              </a>{" "}
+              Before pivoting to tech, I worked in the non-profit space for over
+              six years. Over that period, I worked in volunteer management
+              developing and implementing volunteer programs serving youth
+              across the country, as well as recruiting and training volunteers
+              to lead those programs. Most recently, I worked in the social
+              services space as site supervisor for an after-school and day camp
+              program working with youth experiencing homelessness. I am excited
+              to explore opportunities that empower youth and positively impact
+              the lives of New Yorkers.
+            </p>
+            <br />
+            <p className="text-grid text-l">
+              When I'm not coding, you can probably catch me listening to music,
+              catching up on podcast episodes, or binge-watching reality tv!
+            </p>
+          </div>
+          <div className="w-full mx-auto gap-4">
+            <img src="cynthia.png" alt="cynthia" />
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

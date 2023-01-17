@@ -8,6 +8,9 @@ function Navbar() {
               <a href="/" className="py-4 px-2 text-navbarText font-light">
                 Home
               </a>
+              <a href="/about" className="py-4 px-2 text-navbarText font-light">
+                About Me
+              </a>
               <a
                 href="/projects"
                 className="py-4 px-2 text-navbarText font-light"
