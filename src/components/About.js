@@ -40,6 +40,18 @@ function About() {
             <img src="cynthia.png" alt="cynthia" />
           </div>
         </div>
+        <br />
+        <iframe
+          title="spotify playlist"
+          style={{ borderRadius: "12px" }}
+          src="https://open.spotify.com/embed/playlist/2II9AuwrR3B3WDHFenBjlo?utm_source=generator"
+          width="100%"
+          height="352"
+          frameBorder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe>
       </div>
     </section>
   );

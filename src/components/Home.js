@@ -1,12 +1,12 @@
 import React from "react";
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
+import { RoughNotationGroup } from "react-rough-notation";
 import RainbowHighlight from "./RainbowHighlight";
 
 function Home() {
   const colors = ["#893168", "#4A1942", "#2E1C2B", "#3B82F6"];
 
   return (
-    <div className="flex flex-row justify-center items-center overflow-hidden">
+    <div className="flex flex-row justify-center items-center overflow-hidden py-10">
       <div className="w-full md:w-1/2 mx-auto text-center md:text-left lg:p-10">
         <RoughNotationGroup show={true}>
           <RainbowHighlight color={colors[0]}>
