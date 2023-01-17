@@ -10,11 +10,8 @@ function Projects() {
         </h1>
       </div>
       <div className="rounded-md shadow-md bg-[#893168] mx-auto mb-20 max-w-7xl dark:bg-gray-900">
-        <div className="max-w-6xl mx-auto -mt-4 grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
-          <a
-            href="https://pocketnyc.onrender.com/"
-            className="w-full block shadow-2xl"
-          >
+        <div className="max-w-6xl mx-auto -mt-4 grid grid-cols-1 md:grid-cols-2 gap-8 py-20 ">
+          <a href="https://pocketnyc.onrender.com/">
             <div className="relative overflow-hidden">
               <img
                 src="/pocketNYC.png"
@@ -51,10 +48,7 @@ function Projects() {
               <GitHubIcon />
             </a>
           </div>
-          <a
-            href="https://team3.onrender.com/home"
-            className="w-full block shadow-2xl"
-          >
+          <a href="https://team3.onrender.com/home">
             <div className="relative overflow-hidden">
               <img
                 src="/punko.png"
@@ -90,10 +84,7 @@ function Projects() {
               <GitHubIcon />
             </a>
           </div>
-          <a
-            href="https://team3.onrender.com/home"
-            className="w-full block shadow-2xl"
-          >
+          <a href="https://team3.onrender.com/home">
             <div className="relative overflow-hidden">
               <img
                 src="/cynthia.png"
