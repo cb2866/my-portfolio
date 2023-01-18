@@ -6,12 +6,13 @@ module.exports = {
   theme: {
     colors: {
       navbar: "#4A1942",
-      navbarText: "white",
+      navbarText: "#EAEAEA",
       header: "#4A1942",
-      grid: "white",
-      contact: "white",
+      grid: "#EAEAEA",
+      contact: "#EAEAEA",
       form: "#EAEAEA",
       button: "#4A1942",
+      project: "#EAEAEA",
     },
     extend: {},
   },

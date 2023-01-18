@@ -6,6 +6,7 @@ function RainbowHighlight({ color, children }) {
   return (
     <RoughNotation
       type="highlight"
+      strokeWidth={2}
       multiline={true}
       padding={[0, 2]}
       iterations={2}
