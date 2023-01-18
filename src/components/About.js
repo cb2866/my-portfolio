@@ -33,7 +33,7 @@ function About() {
             <br />
             <p className="text-grid text-l">
               When I'm not coding, you can probably catch me listening to music,
-              catching up on podcast episodes, or catchign up on reality tv!
+              catching up on podcast episodes, or catching up on reality tv!
             </p>
           </div>
           <div className="w-full mx-auto gap-4">
