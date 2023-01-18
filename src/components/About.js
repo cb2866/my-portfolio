@@ -33,25 +33,24 @@ function About() {
             <br />
             <p className="text-grid text-l">
               When I'm not coding, you can probably catch me listening to music,
-              catching up on podcast episodes, or binge-watching reality tv!
+              catching up on podcast episodes, or catchign up on reality tv!
             </p>
           </div>
           <div className="w-full mx-auto gap-4">
-            <img src="cynthia.png" alt="cynthia" />
+            <iframe
+              title="spotify playlist"
+              style={{ borderRadius: "12px" }}
+              src="https://open.spotify.com/embed/playlist/2II9AuwrR3B3WDHFenBjlo?utm_source=generator"
+              width="100%"
+              height="352"
+              frameBorder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
           </div>
         </div>
         <br />
-        <iframe
-          title="spotify playlist"
-          style={{ borderRadius: "12px" }}
-          src="https://open.spotify.com/embed/playlist/2II9AuwrR3B3WDHFenBjlo?utm_source=generator"
-          width="100%"
-          height="352"
-          frameBorder="0"
-          allowfullscreen=""
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          loading="lazy"
-        ></iframe>
       </div>
     </section>
   );
