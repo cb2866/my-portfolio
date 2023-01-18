@@ -17,49 +17,45 @@ function ContactPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="md:ml-4">
             <header>
-              <h1 className="text-contact font-semibold text-2xl">
-                Get in touch, let's talk.
+              <h1 className="text-contact underline font-semibold text-2xl">
+                Get in touch.
               </h1>
               <p className="font-light text-base text-contact mt-2">
                 Fill in the details and I'll get back to you as soon as I can.
               </p>
             </header>
-            <div className="icons-container inline-flex flex-col my-20">
-              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#893168] hover:border hover:border-blue-500 p-4">
+            <div className="icons-container inline-flex flex-col my-10">
+              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#893168] hover:border hover:border-blue-500 py-2">
                 <a
                   href="mailto:cynthia.britom@gmail.com"
                   rel="noreferrer"
                   target={"_blank"}
                   className="text-contact font-light"
                 >
-                  <EmailIcon />
-                  cynthia.britom@gmail.com
+                  <EmailIcon /> cynthia.britom@gmail.com
                 </a>
               </div>
-              <div className="flex flex-row items-center space-x-6 text-contact font-light rounded-md border border-[#893168] hover:border hover:border-blue-500 p-4">
-                <LocationOnIcon className="text-contact" />
-                Bronx, NY
+              <div className="flex flex-row items-center space-x-6 text-contact font-light rounded-md border border-[#893168] hover:border hover:border-blue-500 py-2">
+                <LocationOnIcon className="text-contact" /> Bronx, NY
               </div>
-              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#893168] hover:border hover:border-blue-500 p-4">
+              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#893168] hover:border hover:border-blue-500 py-2">
                 <a
                   href="https://www.linkedin.com/in/cynthiabritomena/"
                   rel="noreferrer"
                   target={"_blank"}
                   className="text-contact font-light"
                 >
-                  <LinkedInIcon />
-                  linkedin.com/in/cynthiabritomena/
+                  <LinkedInIcon /> linkedin.com/in/cynthiabritomena/
                 </a>
               </div>
-              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#893168] hover:border hover:border-blue-500 p-4">
+              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#893168] hover:border hover:border-blue-500 py-2">
                 <a
                   href="https://github.com/cb2866"
                   target={"_blank"}
                   rel="noreferrer"
                   className="text-contact font-light"
                 >
-                  <GitHubIcon />
-                  github.com/cb2866
+                  <GitHubIcon /> github.com/cb2866
                 </a>
               </div>
             </div>
