@@ -1,102 +1,123 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import {
+  Navbar,
+  MobileNav,
+  Typography,
+  IconButton,
+} from "@material-tailwind/react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
-function Navbar({ color, children }) {
+function Nav() {
+  const [openNav, setOpenNav] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener(
+      "resize",
+      () => window.innerWidth >= 960 && setOpenNav(false)
+    );
+  }, []);
+
+  const navList = (
+    <ul className="mb-4 mt-2 text-navbarText flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+      <Typography as="li" variant="small" className="p-1 font-light">
+        <Link to="/about" className="flex-items-center" aria-current="page">
+          About Me
+        </Link>
+      </Typography>
+      <Typography as="li" variant="small" className="p-1 font-light">
+        <Link to="/projects" className="flex-items-center" aria-current="page">
+          Projects
+        </Link>
+      </Typography>
+      <Typography as="li" variant="small" className="p-1 font-light">
+        <Link to="/resume" className="flex-items-center" aria-current="page">
+          Resume
+        </Link>
+      </Typography>
+      <Typography as="li" variant="small" className="p-1 font-light">
+        <Link to="/contact" className="flex-items-center" aria-current="page">
+          Let's Connect
+        </Link>
+      </Typography>
+      <Typography>
+        <a
+          href="https://github.com/cb2866"
+          rel="noreferrer"
+          className="block py-2 pl-3 pr-4 text-navbarText"
+        >
+          <GitHubIcon />
+        </a>
+      </Typography>
+      <Typography>
+        <a
+          href="https://linkedin.com/in/cynthiabritomena"
+          rel="noreferrer"
+          className="block py-2 pl-3 pr-4 text-navbarText"
+        >
+          <LinkedInIcon />
+        </a>
+      </Typography>
+    </ul>
+  );
+
   return (
-    <nav className="bg-navbar shadow-lg">
-      <div className="container text-navbarText flex flex-wrap items-center justify-between mx-auto">
-        <Link to="/">
+    <Navbar className="mx-auto bg-navbar max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4">
+      <div className="container flex items-center justify-between mx-auto">
+        <Typography
+          as="a"
+          href="/"
+          variant="small"
+          className="mr-4 cursor-pointer py-1.5 font-normal"
+        >
           <h1 className="font-semibold text-navbarText text-xl dark:text-gray-100">
             CYNTHIA BRITO-MENA
           </h1>
-        </Link>
+        </Typography>
+        <div className="hidden lg:block">{navList}</div>
 
-        <button
-          data-collapse-toggle="navbar-default"
-          type="button"
-          class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden  dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-          aria-controls="navbar-default"
-          aria-expanded="false"
+        <IconButton
+          variant="text"
+          className="ml-auto h-6 w-6 text-navbarText hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+          ripple={false}
+          onClick={() => setOpenNav(!openNav)}
         >
-          <span class="sr-only">Open main menu</span>
-          <svg
-            class="w-6 h-6"
-            aria-hidden="true"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
-        </button>
-
-        <div
-          class="hidden w-full md:block md:w-auto text-navbarText"
-          id="navbar-default"
-        >
-          <ul class="flex flex-col p-4 mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-light md:border-0">
-            <li>
-              <Link
-                to="/about"
-                className="block py-2 pl-3 pr-4 text-navbarText"
-                aria-current="page"
-              >
-                About Me
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/projects"
-                className="block py-2 pl-3 pr-4 text-navbarText"
-              >
-                Projects
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/resume"
-                className="block py-2 pl-3 pr-4 text-navbarText"
-              >
-                Resume
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/contact"
-                className="block py-2 pl-3 pr-4 text-navbarText"
-              >
-                Let's Connect
-              </Link>
-            </li>
-            <li>
-              <a
-                href="https://github.com/cb2866"
-                rel="noreferrer"
-                className="block py-2 pl-3 pr-4 text-navbarText"
-              >
-                <GitHubIcon />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://linkedin.com/in/cynthiabritomena"
-                rel="noreferrer"
-                className="block py-2 pl-3 pr-4 text-navbarText"
-              >
-                <LinkedInIcon />
-              </a>
-            </li>
-          </ul>
-        </div>
+          {openNav ? (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              className="h-6 w-6"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          ) : (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          )}
+        </IconButton>
       </div>
-    </nav>
+      <MobileNav open={openNav}>{navList}</MobileNav>
+    </Navbar>
   );
 }
 
-export default Navbar;
+export default Nav;

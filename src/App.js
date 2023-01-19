@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+import Nav from "./components/Navbar";
 import AppRoutes from "./AppRoutes";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Nav />
       <AppRoutes />
     </div>
   );
