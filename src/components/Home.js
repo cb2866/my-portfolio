@@ -6,41 +6,43 @@ function Home() {
   const colors = ["#893168", "#4A1942", "#2E1C2B", "#3B82F6"];
 
   return (
-    <div class="container px-6 py-16 mx-auto">
-      <div class="items-center lg:flex">
-        <div class="w-full lg:w-1/2">
-          <div class="lg:max-w-lg text-center">
-            <RoughNotationGroup show={true}>
-              <RainbowHighlight color={colors[0]}>
-                <h1 className="text-4xl md:text-7xl font-bold text-navbarText dark:text-gray-200 my-2">
-                  Cynthia Brito-Mena.
-                </h1>
-              </RainbowHighlight>
+    <section>
+      <div className="container px-6 py-16 mx-auto">
+        <div className="items-center lg:flex">
+          <div className="w-full lg:w-1/2">
+            <div className="lg:max-w-lg ">
+              <RoughNotationGroup show={true}>
+                <RainbowHighlight color={colors[0]}>
+                  <h1 className="text-4xl md:text-7xl font-bold text-navbarText dark:text-gray-200 my-2">
+                    Cynthia Brito-Mena.
+                  </h1>
+                </RainbowHighlight>
 
-              <RainbowHighlight color={colors[1]}>
-                <h1 className="text-4xl md:text-7xl font-bold text-navbarText dark:text-gray-200 my-2">
-                  Podcast Enthusiast.
-                </h1>
-              </RainbowHighlight>
+                <RainbowHighlight color={colors[1]}>
+                  <h1 className="text-4xl md:text-7xl font-bold text-navbarText dark:text-gray-200 my-2">
+                    Podcast Enthusiast.
+                  </h1>
+                </RainbowHighlight>
 
-              <RainbowHighlight color={colors[2]}>
-                <h1 className="text-4xl md:text-7xl font-bold text-navbarText dark:text-gray-200 my-2">
-                  Software Engineer.
-                </h1>
-              </RainbowHighlight>
-            </RoughNotationGroup>
+                <RainbowHighlight color={colors[2]}>
+                  <h1 className="text-4xl md:text-7xl font-bold text-navbarText dark:text-gray-200 my-2">
+                    Software Engineer.
+                  </h1>
+                </RainbowHighlight>
+              </RoughNotationGroup>
+            </div>
+          </div>
+
+          <div className="flex items-center justify-center w-full  mt-6 lg:mt-0 lg:w-1/2">
+            <img
+              className="w-full lg:max-w-3x object-contain"
+              src="/csmall.png"
+              alt="Cynthia.png"
+            />
           </div>
         </div>
-
-        <div class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
-          <img
-            class="w-full h-full lg:max-w-3xl"
-            src="/cynthia.png"
-            alt="Cynthia.png"
-          />
-        </div>
       </div>
-    </div>
+    </section>
   );
 }
 
