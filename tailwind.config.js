@@ -13,6 +13,7 @@ module.exports = {
       form: "#EAEAEA",
       button: "#4A1942",
       project: "#EAEAEA",
+      home: "#4A1942",
     },
     extend: {},
   },

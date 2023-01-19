@@ -34,11 +34,13 @@ function Home() {
           </div>
 
           <div className="flex items-center justify-center w-full  mt-6 lg:mt-0 lg:w-1/2">
-            <img
-              className="w-full lg:max-w-3x object-contain"
-              src="/csmall.png"
-              alt="Cynthia.png"
-            />
+            <div className="relative overflow-hidden border-solid border-2 border-home py-2 px-2">
+              <img
+                className="w-full lg:max-w-3x"
+                src="/csmall.png"
+                alt="Cynthia.png"
+              />
+            </div>
           </div>
         </div>
       </div>

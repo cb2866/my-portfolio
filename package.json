@@ -19,6 +19,7 @@
     "react-rough-notation": "^1.0.3",
     "react-router-dom": "^6.6.1",
     "react-scripts": "5.0.1",
+    "react-spring": "^9.6.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
