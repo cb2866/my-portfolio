@@ -11,7 +11,11 @@ function Projects() {
       </div>
       <div className="rounded-md shadow-md bg-[#893168] text-project mx-auto mb-20 max-w-7xl dark:bg-gray-900">
         <div className="max-w-6xl mx-auto -mt-4 grid grid-cols-1 md:grid-cols-2 gap-8 py-20 ">
-          <a href="https://pocketnyc.onrender.com/">
+          <a
+            href="https://pocketnyc.onrender.com/"
+            rel="noreferrer"
+            target={"_blank"}
+          >
             <div className="relative overflow-hidden border-solid border-2 border-project py-2 px-2">
               <img
                 src="/pocketNYC.png"
@@ -46,7 +50,11 @@ function Projects() {
               <GitHubIcon />
             </a>
           </div>
-          <a href="https://team3.onrender.com/home">
+          <a
+            href="https://team3.onrender.com/home"
+            rel="noreferrer"
+            target={"_blank"}
+          >
             <div className="relative overflow-hidden border-solid border-2 border-project py-2 px-2">
               <img
                 src="/punko.png"
@@ -80,11 +88,15 @@ function Projects() {
               <GitHubIcon />
             </a>
           </div>
-          <a href="https://team3.onrender.com/home">
+          <a
+            href="https://github.com/cb2866/my-portfolio"
+            rel="noreferrer"
+            target={"_blank"}
+          >
             <div className="relative overflow-hidden border-solid border-2 border-project py-2 px-2">
               <img
-                src="/cynthia.png"
-                alt="Thumbnail for PunkoFop! project"
+                src="/portfolio.png"
+                alt="Thumbnail for Portfolio"
                 className="transform hover:scale-110 transition duration-2000 ease-out"
               />
             </div>
@@ -99,7 +111,7 @@ function Projects() {
             <br />
             <h3 className="font-bold mx-4">Tech Stack</h3>
             <h3 className="font-light mx-4">
-              Express, React, Node, TailwindCSS, and MUI
+              React, Node, TailwindCSS, MUI, EmailJS and React Rough Notation
             </h3>
             <br />
             <a

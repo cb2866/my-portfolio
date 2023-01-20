@@ -44,6 +44,7 @@ function Nav() {
       <Typography>
         <a
           href="https://github.com/cb2866"
+          target={"_blank"}
           rel="noreferrer"
           className="block py-2 pl-3 pr-4 text-navbarText"
         >
@@ -53,6 +54,7 @@ function Nav() {
       <Typography>
         <a
           href="https://linkedin.com/in/cynthiabritomena"
+          target={"_blank"}
           rel="noreferrer"
           className="block py-2 pl-3 pr-4 text-navbarText"
         >
