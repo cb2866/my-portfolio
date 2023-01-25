@@ -1,11 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import {
-  Navbar,
-  MobileNav,
-  Typography,
-  IconButton,
-} from "@material-tailwind/react";
+import { Navbar, MobileNav, Typography, IconButton } from "@material-tailwind/react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
@@ -13,10 +8,7 @@ function Nav() {
   const [openNav, setOpenNav] = useState(false);
 
   useEffect(() => {
-    window.addEventListener(
-      "resize",
-      () => window.innerWidth >= 960 && setOpenNav(false)
-    );
+    window.addEventListener("resize", () => window.innerWidth >= 960 && setOpenNav(false));
   }, []);
 
   const navList = (
@@ -46,7 +38,7 @@ function Nav() {
           href="https://github.com/cb2866"
           target={"_blank"}
           rel="noreferrer"
-          className="block py-2 pl-3 pr-4 text-navbarText"
+          className="block py-2 pl-3 pr-3 text-navbarText"
         >
           <GitHubIcon />
         </a>
@@ -56,7 +48,7 @@ function Nav() {
           href="https://linkedin.com/in/cynthiabritomena"
           target={"_blank"}
           rel="noreferrer"
-          className="block py-2 pl-3 pr-4 text-navbarText"
+          className="block py-2 pl-2 pr-2 text-navbarText"
         >
           <LinkedInIcon />
         </a>
@@ -94,11 +86,7 @@ function Nav() {
               stroke="currentColor"
               strokeWidth={2}
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M6 18L18 6M6 6l12 12"
-              />
+              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
             </svg>
           ) : (
             <svg
@@ -108,11 +96,7 @@ function Nav() {
               stroke="currentColor"
               strokeWidth={2}
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M4 6h16M4 12h16M4 18h16"
-              />
+              <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
             </svg>
           )}
         </IconButton>
