@@ -5,8 +5,8 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     colors: {
-      navbar: "#4A1942",
-      navbarText: "#EAEAEA",
+      navbar: "#c74375",
+      navbarText: "#fff7f5",
       header: "#4A1942",
       grid: "#EAEAEA",
       contact: "#EAEAEA",
