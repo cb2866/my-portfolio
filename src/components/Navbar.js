@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import * as Scroll from "react-scroll";
+import { Link } from "react-scroll";
 import {
   Navbar,
   MobileNav,
@@ -22,12 +23,26 @@ function Nav() {
   const navList = (
     <ul className="mb-4 mt-2 text-navbarText flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography as="li" variant="small" className="p-1 font-light">
-        <Link to="/about" className="flex-items-center" aria-current="page">
+        <Link
+          to="/about"
+          className="flex-items-center"
+          aria-current="page"
+          offset={-100}
+          spy={true}
+          smooth={true}
+        >
           About Me
         </Link>
       </Typography>
       <Typography as="li" variant="small" className="p-1 font-light">
-        <Link to="/projects" className="flex-items-center" aria-current="page">
+        <Link
+          to="/projects"
+          className="flex-items-center"
+          aria-current="page"
+          offset={-100}
+          spy={true}
+          smooth={true}
+        >
           Projects
         </Link>
       </Typography>
