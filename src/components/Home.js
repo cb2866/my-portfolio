@@ -20,12 +20,6 @@ function Home() {
 
                 <RainbowHighlight color={colors[1]}>
                   <h1 className="text-4xl md:text-7xl font-bold text-navbarText dark:text-gray-200 my-2">
-                    Podcast Enthusiast.
-                  </h1>
-                </RainbowHighlight>
-
-                <RainbowHighlight color={colors[2]}>
-                  <h1 className="text-4xl md:text-7xl font-bold text-navbarText dark:text-gray-200 my-2">
                     Software Engineer.
                   </h1>
                 </RainbowHighlight>
