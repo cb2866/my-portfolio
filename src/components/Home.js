@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { Button } from "@mui/material";
+import { IconButton } from "@mui/material";
 import { useInView } from "framer-motion";
 import Hero from "./Hero";
 import About from "./About";
@@ -41,7 +41,7 @@ const Home = () => {
       <FadeIn>
         <ContactPage />
       </FadeIn>
-      <Button
+      <IconButton
         onClick={() => {
           document.body.scrollTop = 0;
           document.documentElement.scrollTop = 0;
@@ -49,7 +49,7 @@ const Home = () => {
         id="scroll-to-top"
       >
         <ArrowUpwardIcon />
-      </Button>
+      </IconButton>
     </>
   );
 };
