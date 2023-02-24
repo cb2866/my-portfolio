@@ -61,7 +61,7 @@ function Nav() {
       <Typography as="li" variant="small" className="p-1 font-light">
         <a
           target={"_blank"}
-          href="https://drive.google.com/file/d/19EdDC-lqPOirxA6xJOIquuu5eImXXTmT/view?usp=sharing"
+          href="https://drive.google.com/file/d/1qwWVoOLuJHc1U6kfegY4XQZzWOhr4HMt/view?usp=sharing"
           rel="noreferrer"
         >
           Resume
