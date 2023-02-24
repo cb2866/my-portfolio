@@ -26,8 +26,11 @@ function Nav() {
 
   const navList = (
     <ul className="mb-4 mt-2 text-navbarText flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-      <Typography as="li" variant="small" className="p-1 font-light">
-        {/* <Link to="/about" className="flex-items-center" aria-current="page"> */}
+      <Typography
+        as="li"
+        variant="small"
+        className="p-1 font-light cursor-pointer"
+      >
         <motion.a
           className="flex-items-center"
           onClick={() => scrollToComponent("about-section")}
@@ -37,7 +40,11 @@ function Nav() {
           About Me
         </motion.a>
       </Typography>
-      <Typography as="li" variant="small" className="p-1 font-light">
+      <Typography
+        as="li"
+        variant="small"
+        className="p-1 font-light cursor-pointer"
+      >
         <motion.a
           className="flex-items-center"
           onClick={() => scrollToComponent("projects-section")}
@@ -48,7 +55,11 @@ function Nav() {
         </motion.a>
       </Typography>
 
-      <Typography as="li" variant="small" className="p-1 font-light">
+      <Typography
+        as="li"
+        variant="small"
+        className="p-1 font-light cursor-pointer"
+      >
         <motion.a
           className="flex-items-center"
           onClick={() => scrollToComponent("contact-section")}
