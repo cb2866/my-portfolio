@@ -1,37 +1,68 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Navbar, MobileNav, Typography, IconButton } from "@material-tailwind/react";
+import {
+  Navbar,
+  MobileNav,
+  Typography,
+  IconButton,
+} from "@material-tailwind/react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import { motion } from "framer-motion";
 
 function Nav() {
+  const scrollToComponent = (id) => {
+    const el = document.getElementById(id);
+    el.scrollIntoView({ behavior: "smooth" });
+  };
+
   const [openNav, setOpenNav] = useState(false);
 
   useEffect(() => {
-    window.addEventListener("resize", () => window.innerWidth >= 960 && setOpenNav(false));
+    window.addEventListener(
+      "resize",
+      () => window.innerWidth >= 960 && setOpenNav(false)
+    );
   }, []);
 
   const navList = (
     <ul className="mb-4 mt-2 text-navbarText flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography as="li" variant="small" className="p-1 font-light">
-        <Link to="/about" className="flex-items-center" aria-current="page">
+        {/* <Link to="/about" className="flex-items-center" aria-current="page"> */}
+        <motion.a
+          className="flex-items-center"
+          onClick={() => scrollToComponent("about-section")}
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+        >
           About Me
-        </Link>
+        </motion.a>
       </Typography>
       <Typography as="li" variant="small" className="p-1 font-light">
-        <Link to="/projects" className="flex-items-center" aria-current="page">
+        <motion.a
+          className="flex-items-center"
+          onClick={() => scrollToComponent("projects-section")}
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+        >
           Projects
-        </Link>
+        </motion.a>
       </Typography>
       <Typography as="li" variant="small" className="p-1 font-light">
         <Link to="/resume" className="flex-items-center" aria-current="page">
           Resume
         </Link>
       </Typography>
+
       <Typography as="li" variant="small" className="p-1 font-light">
-        <Link to="/contact" className="flex-items-center" aria-current="page">
+        <motion.a
+          className="flex-items-center"
+          onClick={() => scrollToComponent("contact-section")}
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+        >
           Let's Connect
-        </Link>
+        </motion.a>
       </Typography>
       <Typography>
         <a
@@ -86,7 +117,11 @@ function Nav() {
               stroke="currentColor"
               strokeWidth={2}
             >
-              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
             </svg>
           ) : (
             <svg
@@ -96,7 +131,11 @@ function Nav() {
               stroke="currentColor"
               strokeWidth={2}
             >
-              <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
             </svg>
           )}
         </IconButton>

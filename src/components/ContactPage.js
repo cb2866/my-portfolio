@@ -7,7 +7,7 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 function ContactPage() {
   return (
-    <section>
+    <section id="contact-section">
       <div className="max-w-6xl mx-auto h-40 dark:bg-gray-800 antialiased">
         <h1 className="text-5xl md:text-9xl font-bold py-10 text-center text-header md:text-left">
           Contact

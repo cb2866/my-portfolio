@@ -3,7 +3,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 function Projects() {
   return (
-    <section>
+    <section id="projects-section">
       <div className="max-w-6xl mx-auto h-40 dark:bg-gray-800 ">
         <h1 className="text-7xl md:text-9xl font-bold py-10 text-center text-header md:text-left">
           Projects

@@ -1,45 +1,57 @@
-import React from "react";
-import { RoughNotationGroup } from "react-rough-notation";
-import RainbowHighlight from "./RainbowHighlight";
+import React, { useRef } from "react";
+import { Button } from "@mui/material";
+import { useInView } from "framer-motion";
+import Hero from "./Hero";
+import About from "./About";
+import Projects from "./Projects";
+import ContactPage from "./ContactPage";
+import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 
-function Home() {
-  const colors = ["#893168", "#4A1942", "#2E1C2B", "#3B82F6"];
+function FadeIn({ children }) {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
 
   return (
-    <section>
-      <div className="container px-6 py-16 mx-auto">
-        <div className="items-center lg:flex">
-          <div className="w-full lg:w-1/2">
-            <div className="lg:max-w-lg ">
-              <RoughNotationGroup show={true}>
-                <RainbowHighlight color={colors[0]}>
-                  <h1 className="text-4xl md:text-7xl font-bold text-navbarText dark:text-gray-200 my-2">
-                    Cynthia Brito-Mena.
-                  </h1>
-                </RainbowHighlight>
-
-                <RainbowHighlight color={colors[1]}>
-                  <h1 className="text-4xl md:text-7xl font-bold text-navbarText dark:text-gray-200 my-2">
-                    Software Engineer.
-                  </h1>
-                </RainbowHighlight>
-              </RoughNotationGroup>
-            </div>
-          </div>
-
-          <div className="flex items-center justify-center w-full  mt-6 lg:mt-0 lg:w-1/2">
-            <div className="relative overflow-hidden border-solid border-2 border-home py-2 px-2">
-              <img
-                className="w-full lg:max-w-3x"
-                src="/csmall.png"
-                alt="Cynthia.png"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
+    <section ref={ref}>
+      <span
+        style={{
+          transform: isInView ? "none" : "translateX(-200px)",
+          opacity: isInView ? 1 : 0,
+          transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+        }}
+      >
+        {children}
+      </span>
     </section>
   );
 }
+
+const Home = () => {
+  return (
+    <>
+      <FadeIn>
+        <Hero />
+      </FadeIn>
+      <FadeIn>
+        <About />
+      </FadeIn>
+      <FadeIn>
+        <Projects />
+      </FadeIn>
+      <FadeIn>
+        <ContactPage />
+      </FadeIn>
+      <Button
+        onClick={() => {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }}
+        id="scroll-to-top"
+      >
+        <ArrowUpwardIcon />
+      </Button>
+    </>
+  );
+};
 
 export default Home;
