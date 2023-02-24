@@ -11,6 +11,39 @@ function Projects() {
       </div>
       <div className="rounded-md shadow-md bg-[#893168] text-project mx-auto mb-20 max-w-7xl dark:bg-gray-900">
         <div className="max-w-6xl mx-auto -mt-4 grid grid-cols-1 md:grid-cols-2 gap-8 py-20 ">
+          <a href="medexperts.io" rel="noreferrer" target={"_blank"}>
+            <div className="relative overflow-hidden border-solid border-2 border-project py-2 px-2">
+              <img
+                src="/medexperts.png"
+                alt="Thumbnail for MedExperts project"
+                className="transform hover:scale-110 transition duration-2000 ease-out"
+              />
+            </div>
+          </a>
+          <div className="rounded-lg">
+            <h1 className="font-bold mx-4">MedExperts</h1>
+            <h3 className="font-light mx-4">
+              MedExperts is a question and answer portal designed for medical
+              professionals in the field of pulmonary medicine. It provides a
+              vast collection of questions on various difficulty levels and
+              sub-categories to help users enhance their knowledge and skills.
+            </h3>
+            <br />
+            <h3 className="font-bold mx-4">Tech Stack</h3>
+            <h3 className="font-light mx-4">
+              PostgreSQL,Express, React, Node (PERN), Redux, MUI, Bootstrap,
+              Nodemailer, Framer Motion, JSON Web Tokens (JWT), and Firebase
+            </h3>
+            <br />
+            <a
+              href="https://github.com/MedExperts-io/MedExperts.io"
+              target={"_blank"}
+              rel="noreferrer"
+              className="font-light mx-4"
+            >
+              <GitHubIcon />
+            </a>
+          </div>
           <a
             href="https://pocketnyc.onrender.com/"
             rel="noreferrer"
@@ -42,7 +75,7 @@ function Projects() {
             </h3>
             <br />
             <a
-              href="https://github.com/grace-shopper-team3/graceshopper-team3"
+              href="https://github.com/pocketNYC/pocketNYC"
               target={"_blank"}
               rel="noreferrer"
               className="font-light mx-4"

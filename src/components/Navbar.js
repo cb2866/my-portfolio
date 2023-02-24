@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import {
   Navbar,
   MobileNav,
@@ -48,11 +47,6 @@ function Nav() {
           Projects
         </motion.a>
       </Typography>
-      <Typography as="li" variant="small" className="p-1 font-light">
-        <Link to="/resume" className="flex-items-center" aria-current="page">
-          Resume
-        </Link>
-      </Typography>
 
       <Typography as="li" variant="small" className="p-1 font-light">
         <motion.a
@@ -63,6 +57,15 @@ function Nav() {
         >
           Let's Connect
         </motion.a>
+      </Typography>
+      <Typography as="li" variant="small" className="p-1 font-light">
+        <a
+          target={"_blank"}
+          href="https://drive.google.com/file/d/19EdDC-lqPOirxA6xJOIquuu5eImXXTmT/view?usp=sharing"
+          rel="noreferrer"
+        >
+          Resume
+        </a>
       </Typography>
       <Typography>
         <a
