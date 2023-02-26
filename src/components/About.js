@@ -12,7 +12,7 @@ function About() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="md:ml-4">
             <p className="text-grid text-l">
-              Hi, I'm Cynthia, a Full-Stack Software Engineer and recent
+              Hi, I'm Cynthia, a Software Engineer and recent
               graduate of Fullstack Academy's{" "}
               <a
                 className="underline"
@@ -33,7 +33,7 @@ function About() {
             <br />
             <p className="text-grid text-l">
               When I'm not coding, you can probably catch me listening to music
-              (check out my current coding playlist), replaying my favorite
+              (check out my current coding playlist), replaying my favorite pop culture
               podcast episodes, or catching up on reality tv.
             </p>
           </div>
