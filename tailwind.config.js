@@ -13,7 +13,7 @@ module.exports = {
       form: "#B85A23",
       formText: "#EAEAEA",
       button: "#EAEAEA",
-      btnText: "#B85A23",
+      btnText: "#b85a23",
       project: "#EAEAEA",
       home: "#4A1942",
       componentBackground: "#90a27f",

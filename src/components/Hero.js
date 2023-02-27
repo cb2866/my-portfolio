@@ -3,7 +3,7 @@ import { RoughNotationGroup } from "react-rough-notation";
 import RainbowHighlight from "./RainbowHighlight";
 
 function Hero() {
-  const colors = ["#90A27F", "#4e7a51"];
+  const colors = ["#b85a23", "#90a27f"];
 
   return (
     <section>
