@@ -8,12 +8,12 @@ function About() {
           About Me
         </h1>
       </div>
-      <div className="rounded-md shadow-md bg-[#893168] p-4 md:p-10 lg:p-20 max-w-7xl mx-auto mb-20 -mt-4">
+      <div className="rounded-md shadow-md bg-componentBackground p-4 md:p-10 lg:p-20 max-w-7xl mx-auto mb-20 -mt-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="md:ml-4">
             <p className="text-grid text-l">
-              Hi, I'm Cynthia, a Software Engineer and recent
-              graduate of Fullstack Academy's{" "}
+              Hi, I'm Cynthia, a Software Engineer and recent graduate of
+              Fullstack Academy's{" "}
               <a
                 className="underline"
                 href="https://www.fullstackacademy.com/programs/future-code"
@@ -33,8 +33,8 @@ function About() {
             <br />
             <p className="text-grid text-l">
               When I'm not coding, you can probably catch me listening to music
-              (check out my current coding playlist), replaying my favorite pop culture
-              podcast episodes, or catching up on reality tv.
+              (check out my current coding playlist), replaying my favorite pop
+              culture podcast episodes, or catching up on reality tv.
             </p>
           </div>
           <div className="w-full mx-auto gap-4">

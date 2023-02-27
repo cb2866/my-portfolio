@@ -30,37 +30,37 @@ function Form() {
       ref={form}
       onSubmit={sendEmail}
     >
-      <label htmlFor="name" className="text-sm text-gray-600 mx-4">
+      <label htmlFor="name" className="text-sm text-formText mx-4">
         Your Name
       </label>
       <input
         type="text"
-        className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
+        className="font-light bg-contact rounded-md border-componentBackground focus:outline-none py-2 mt-2 px-1 mx-4"
         name="user_name"
         required
       />
-      <label htmlFor="email" className="text-sm text-gray-600 mx-4 mt-4">
+      <label htmlFor="email" className="text-sm text-formText mx-4 mt-4">
         Your Email Address
       </label>
       <input
         type="text"
-        className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
+        className="font-light bg-contact rounded-md border-componentBackground focus:outline-none py-2 mt-2 px-1 mx-4"
         name="user_email"
         required
       />
-      <label htmlFor="name" className="text-sm text-gray-600 mx-4 mt-4">
+      <label htmlFor="name" className="text-sm text-formText mx-4 mt-4">
         Message
       </label>
       <textarea
         type="text"
-        className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500 form-control block"
+        className="font-light bg-contact rounded-md border-componentBackground focus:outline-none py-2 mt-2 px-1 mx-4"
         name="message"
         rows="5"
         required
       />
       <button
         type="submit"
-        className="bg-button rounded-md w-1/2 mx-4 mt-8 py-2 text-contact text-sm font-bold"
+        className="bg-button rounded-md w-1/2 mx-4 mt-8 py-2 text-btnText text-sm font-bold"
       >
         Send Message
       </button>

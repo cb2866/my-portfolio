@@ -9,7 +9,7 @@ function Projects() {
           Projects
         </h1>
       </div>
-      <div className="rounded-md shadow-md bg-[#893168] text-project mx-auto mb-20 max-w-7xl dark:bg-gray-900">
+      <div className="rounded-md shadow-md bg-componentBackground text-project mx-auto mb-20 max-w-7xl dark:bg-gray-900">
         <div className="max-w-6xl mx-auto -mt-4 grid grid-cols-1 md:grid-cols-2 gap-8 py-20 ">
           <a href="https://www.medexperts.io" rel="noreferrer" target={"_blank"}>
             <div className="relative overflow-hidden border-solid border-2 border-project py-2 px-2">

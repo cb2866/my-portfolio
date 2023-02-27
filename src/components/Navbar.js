@@ -102,7 +102,7 @@ function Nav() {
   );
 
   return (
-    <Navbar className="mx-auto bg-navbar max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4">
+    <Navbar className="mx-auto bg-navbar border-navbar lg:px-8 lg:py-2">
       <div className="container flex items-center justify-between mx-auto">
         <Typography
           as="a"
