@@ -9,7 +9,7 @@ function ContactPage() {
   return (
     <section id="contact-section">
       <div className="max-w-6xl mx-auto h-40 dark:bg-gray-800 antialiased">
-        <h1 className="text-5xl md:text-9xl font-bold py-10 text-center text-header md:text-left">
+        <h1 className="text-7xl md:text-9xl font-bold py-10 text-center text-header md:text-left">
           Contact
         </h1>
       </div>
@@ -45,7 +45,7 @@ function ContactPage() {
                   target={"_blank"}
                   className="text-contact font-light"
                 >
-                  <LinkedInIcon /> linkedin.com/in/cynthiabritomena/
+                  <LinkedInIcon /> linkedin.com/in/cynthiabritomena
                 </a>
               </div>
               <div className="flex flex-row items-center space-x-6 rounded-md border border-componentBackground hover:border hover:border-blue-500 py-2">

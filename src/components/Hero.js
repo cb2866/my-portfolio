@@ -30,8 +30,8 @@ function Hero() {
           <div className="flex items-center justify-center w-full  mt-6 lg:mt-0 lg:w-1/2">
             <div className="relative overflow-hidden border-solid border-2 border-home py-2 px-2">
               <img
-                className="w-full lg:max-w-3x"
-                src="/csmall.png"
+                className="object-scale-down h-84"
+                src="/2.png"
                 alt="Cynthia.png"
               />
             </div>
