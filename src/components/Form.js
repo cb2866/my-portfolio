@@ -22,7 +22,7 @@ function Form() {
           console.log(error.text);
         }
       );
-    e.target.reset()
+    e.target.reset();
   };
   return (
     <form
@@ -40,7 +40,7 @@ function Form() {
         required
       />
       <label htmlFor="email" className="text-sm text-gray-600 mx-4 mt-4">
-        Email
+        Your Email Address
       </label>
       <input
         type="text"
