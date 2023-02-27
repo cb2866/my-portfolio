@@ -37,7 +37,7 @@ function About() {
               culture podcast episodes, or catching up on reality tv.
             </p>
           </div>
-          <div className="w-full mx-auto gap-4">
+          <div className="w-full mx-auto gap-4 bg-component">
             <iframe
               title="spotify playlist"
               style={{ borderRadius: "12px" }}
