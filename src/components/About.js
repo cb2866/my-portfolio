@@ -8,7 +8,7 @@ function About() {
           About Me
         </h1>
       </div>
-      <div className="rounded-md shadow-md bg-[#893168] p-4 md:p-10 lg:p-20 max-w-7xl mx-auto mb-20 -mt-4">
+      <div className="rounded-md shadow-md bg-componentBackground p-4 md:p-10 lg:p-20 max-w-7xl mx-auto mb-20 -mt-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="md:ml-4">
             <p className="text-grid text-l">
