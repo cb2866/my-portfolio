@@ -25,7 +25,7 @@ function ContactPage() {
               </p>
             </header>
             <div className="icons-container inline-flex flex-col my-10">
-              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#893168] hover:border hover:border-blue-500 py-2">
+              <div className="flex flex-row items-center space-x-6 rounded-md border border-componentBackground hover:border hover:border-blue-500 py-2">
                 <a
                   href="mailto:cynthia.britom@gmail.com"
                   rel="noreferrer"
@@ -35,10 +35,10 @@ function ContactPage() {
                   <EmailIcon /> cynthia.britom@gmail.com
                 </a>
               </div>
-              <div className="flex flex-row items-center space-x-6 text-contact font-light rounded-md border border-[#893168] hover:border hover:border-blue-500 py-2">
+              <div className="flex flex-row items-center space-x-6 text-contact font-light rounded-md border border-componentBackground hover:border hover:border-blue-500 py-2">
                 <LocationOnIcon className="text-contact" /> Bronx, NY
               </div>
-              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#893168] hover:border hover:border-blue-500 py-2">
+              <div className="flex flex-row items-center space-x-6 rounded-md border border-componentBackground hover:border hover:border-blue-500 py-2">
                 <a
                   href="https://www.linkedin.com/in/cynthiabritomena/"
                   rel="noreferrer"
@@ -48,7 +48,7 @@ function ContactPage() {
                   <LinkedInIcon /> linkedin.com/in/cynthiabritomena/
                 </a>
               </div>
-              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#893168] hover:border hover:border-blue-500 py-2">
+              <div className="flex flex-row items-center space-x-6 rounded-md border border-componentBackground hover:border hover:border-blue-500 py-2">
                 <a
                   href="https://github.com/cb2866"
                   target={"_blank"}
