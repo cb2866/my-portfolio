@@ -3,7 +3,7 @@ import { RoughNotationGroup } from "react-rough-notation";
 import RainbowHighlight from "./RainbowHighlight";
 
 function Hero() {
-  const colors = ["#893168", "#4A1942", "#2E1C2B", "#3B82F6"];
+  const colors = ["#90A27F", "#4e7a51"];
 
   return (
     <section>
@@ -28,10 +28,10 @@ function Hero() {
           </div>
 
           <div className="flex items-center justify-center w-full  mt-6 lg:mt-0 lg:w-1/2">
-            <div className="relative overflow-hidden border-solid border-2 border-home py-2 px-2">
+            <div className="relative overflow-hidden border-solid py-2 px-2">
               <img
-                className="object-scale-down h-84"
-                src="/2.png"
+                className="object-scale-down h-84 rounded-full"
+                src="/3.png"
                 alt="Cynthia.png"
               />
             </div>
