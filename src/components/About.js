@@ -32,8 +32,8 @@ function About() {
             </p>
             <br />
             <p className="text-grid text-l">
-              When I'm not coding, you can probably catch me listening to music
-              (check out my current coding playlist), replaying my favorite pop
+              When I'm not coding, you can probably find me listening to music
+              (check out my current favorite playlist), replaying my favorite pop
               culture podcast episodes, or catching up on reality tv.
             </p>
           </div>

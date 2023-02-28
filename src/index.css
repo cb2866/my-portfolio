@@ -9,10 +9,26 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #scroll-to-top {
   position: fixed;
   bottom: 20px;
   right: 20px;
   background-color: rgba(223, 223, 223, 0.298);
   border: rgba(13, 9, 9, 0.74);
+}
+
+@keyframes leaf-sway {
+  0% {
+    transform: rotate(45deg);
+  }
+  50% {
+    transform: rotate(60deg);
+  }
+  100% {
+    transform: rotate(45deg);
+  }
 }
